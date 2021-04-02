@@ -1,0 +1,290 @@
+*{
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/* =========================TOP BAR START BY SHAIN ALOM================================================= */
+.top-bar {
+  padding: 15px 0;
+  font-size: 8px;
+  background-color: #b74f25;
+  border-bottom: 1px solid #e4e4e4;
+}
+.top-bar ul {
+  margin-bottom: 0;
+}
+.top-bar ul li {
+  margin-right: 20px;
+}
+@media (max-width: 991px) {
+  .top-bar ul li {
+    margin-right: 5px;
+  }
+}
+.top-bar ul a {
+  display: block;
+  text-decoration: none;
+}
+.top-bar ul a:hover span {
+  border-bottom: solid 1px #ffffff;
+}
+/* .top-bar ul a:hover .fa {
+  color: #00b16a;
+}
+.top-bar ul a span.colored {
+  color: #00b16a;
+  margin-left: 5px;
+} */
+.top-bar ul .dropdown-menu {
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.1);
+  border-radius: 0;
+}
+.top-bar ul .dropdown-menu li {
+  margin-right: 0;
+}
+.top-bar ul .dropdown-menu a {
+  color: #232323;
+  padding: 3px 10px;
+}
+.top-bar ul .dropdown-menu a:hover {
+  border-bottom: none;
+}
+.top-bar ul .fa {
+  margin-right: 5px;
+}
+.top-bar ul .dropdown-toggle .fa {
+  margin: 0 0 0 5px;
+}
+.top-bar .top-bar-left {
+  float: left;
+}
+.top-bar .top-bar-right {
+  float: right;
+}
+.top-bar .top-bar-right > ul > li {
+  padding: 0;
+  margin: 0;
+  position: relative;
+}
+.top-bar .top-bar-right > ul > li + li {
+  padding: 0 0 0 10px;
+  margin: 0 0 0 9px;
+}
+.top-bar .top-bar-right > ul > li + li:before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 5px;
+  left: 0;
+  width: 1px;
+  height: 8px;
+}
+.top-bar .icon-user img {
+  margin-top: -3px;
+  margin-right: 5px;
+}
+.top-bar .icon-form img {
+  margin-top: -5px;
+  margin-right: 5px;
+}
+.top-bar .dropdown.currency .dropdown-menu {
+  min-width: 80px;
+}
+.top-bar .dropdown.flags > a img {
+  margin-top: -3px;
+}
+.top-bar .dropdown.flags .dropdown-menu {
+  min-width: 75px;
+}
+.top-bar ul a:hover .fa {
+  color: #ffffff;
+}
+.top-bar ul a span.colored {
+  color: #000000;  
+}
+.top-bar {
+  color: #ffffff !important;
+  background-image: url(uploads/image_bg/topBar_bg.jpg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  width: 100%;
+  height: 46px;
+  position: relative;
+  z-index: 1;
+}
+/* .top-bar:after {
+  position: absolute;
+  content: '';
+  background: linear-gradient(90deg, rgba(196,82,35,1) 0%, rgba(196,75,35,1) 48%, rgba(140,117,89,1) 100%);
+  width: 100%;
+  height: 100px;
+  top: 0;
+  left: 0;
+  opacity: 0.7;
+  z-index: -1;
+} */
+.top-bar a{
+  color: #ffffff
+;
+}
+.top-bar .top-bar-right > ul > li + li:before {
+  background-color: #ffffff
+;
+}
+.navbar-fixed-top {
+  animation-duration: 0.8s;
+  animation-name: fadeInDown;
+  animation-timing-function: ease-in-out;
+  box-shadow: 0 4px 7px -4px rgb(196 82 35 / 82%);
+  left: 0;
+  padding-top: 0px;
+  position: fixed !important;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+  background: #3B3D49;
+}
+.navbar-fixed-sub {
+  animation-duration: 0.8s;
+  animation-name: fadeInDown;
+  animation-timing-function: ease-in-out;
+  box-shadow: 0 4px 7px -4px rgb(196 82 35 / 82%);
+  left: 0;
+  padding-top: 0px;
+  position: fixed !important;
+  right: 0;
+  top: 63px;
+  width: 100%;
+  z-index: 99999;
+  background: #3B3D49;
+  border-top: solid 3px #c45223;
+}
+.header-style-3 .top-bar .top-bar-left {
+  float: right;
+}
+.header-style-3 .top-bar .top-bar-right {
+  float: left;
+}
+/* =========================TOP BAR END BY SHAHIN ALOM================================================= */
+
+
+/*======CAROUSEL SLIDER START EDITED BY IBU======*/
+.slider{
+    background-color: #f1f2f4;
+    
+    
+}
+/*======BANNER START EDITED BY IBU=========*/
+.card-group{
+    padding: 8px 0 8px 0;
+
+}
+ .one{
+    padding-right: 5px;
+}
+.two{
+    padding-right: 5px;
+}
+
+/*======BANNER START EDITED BY END=========*/
+/*======CAROUSEL SLIDER END EDITED BY IBU======*/
+
+/*======PRODUCT SECTION START EDITED BY IBU======*/
+
+/*======PRODUCT HEADING START======*/
+.section-title{
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 900;
+    line-height: 30px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #232323;
+    overflow: hidden;
+}
+
+.section-title span {
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+  }
+  .section-title span:before {
+    right: 100%;
+    margin-right: 15px;
+  }
+  .section-title span:after {
+    left: 100%;
+    margin-left: 15px;
+  }
+  .section-title span span:before,
+  .section-title span span:after {
+    display: none;
+  }
+  .section-title.section-title-lg {
+    font-size: 24px;
+  }
+  .section-title-2 {
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: left;
+  }
+  
+  .section-title-2 span:before {
+    content: none;
+  }
+  .section-title-2 span:after {
+    top: 30px;
+    margin: 0;
+    background-color: #efefef;
+  }
+  .section-title-2 span {
+    padding-bottom: 9px;
+    border-bottom: 2px solid #c45223;
+    font-family: 'Raleway', sans-serif;
+    font-style: italic;
+    font-size: 19px;
+    color: #595959;
+  }
+  .testimonials  .section-title-2 span {
+    border-bottom: 2px solid #fff !important;
+    color: #fff !important;
+  }
+  /*======PRODUCT HEADING END======*/
+
+   /*========box======*/
+    .box{
+     width: 50px;
+     height: 75px;
+   }
+  
+.card-title{
+  font-size: 8px;
+  
+}
+ .price{
+   font-size: 8px;
+ }
+ .price-orginal{
+   font-size: 12px;
+ }
+ .shop{
+   font-size: 12px;
+ }
+
+
+/*=========BOX BG START=======*/
+ .bg{
+   background-image: url(uploads/others/parralax_vendor.jpg);
+ }
+ .display-img{
+   display: flex;
+ }
+/*=========BOX BG START=======*/
+
+/*======PRODUCT SECTION END EDITED BY IBU======*/
+
+
+
